@@ -33,7 +33,7 @@ ReactDOM.render(
         <Router>
             <div className="react-login-register">
                 <CheckLogin></CheckLogin>
-                <Route path='/login' component={Login}></Route>
+                <Route component={Login}></Route>
             </div>
         </Router>
     </Provider>,

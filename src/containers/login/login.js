@@ -1,36 +1,28 @@
 import React, {Component} from 'react'
-import {List,InputItem,WingBlank,WhiteSpace, Button} from 'antd-mobile'
+import './login.css'
 
 class Login extends Component {
     render() {
         return (
             <div className="page-login">
-                <WhiteSpace></WhiteSpace>
-                <WhiteSpace></WhiteSpace>
-                <WhiteSpace></WhiteSpace>
-                <WhiteSpace></WhiteSpace>
-                <List>
-                    <InputItem>lbj-账号</InputItem>
-                    <InputItem>lbj-密码</InputItem>
-                </List>
-                <WhiteSpace></WhiteSpace>
-                <WhiteSpace></WhiteSpace>
-                <WhiteSpace></WhiteSpace>
-                <WhiteSpace></WhiteSpace>
-                <WhiteSpace></WhiteSpace>
-                <WingBlank>
-                    <Button type="primary">登录</Button>
-                    <WhiteSpace></WhiteSpace>
-                </WingBlank>
+                <br/>
+                <br/>
+                <h3>高考志愿推荐系统</h3>
+                <br/>
+                <br/>
+                <div>
+                    <input type="text" placeholder={"请输入账号"}/>
+                </div>
+                <br/>
+                <div>
+                    <input type="password" placeholder={"请输入密码"}/>
+                </div>
+                <div>
+                    <button>登录</button>
+                </div>
             </div>
         )
     }
-    /*
-    *     去注册
-    * */
-    // handleGoRegister() {
-    //     this.props.history.push('/register');
-    // }
 }
 
 export default Login
