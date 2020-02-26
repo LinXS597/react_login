@@ -2,15 +2,32 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="be9b0017-edbc-4496-9ede-1ccefed6c36d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/checkLogin/CheckLogin.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/login/login.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/reducer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/redux /user.redux.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/serviceWorker.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/setupTests.js" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -62,29 +79,57 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1582705934021</updated>
-      <workItem from="1582705935493" duration="1580000" />
+      <workItem from="1582705935493" duration="5663000" />
     </task>
+    <task id="LOCAL-00001" summary="hello react">
+      <created>1582707982499</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1582707982499</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="hello react" />
+    <option name="LAST_COMMIT_MESSAGE" value="hello react" />
+  </component>
   <component name="WindowStateProjectService">
-    <state width="1419" height="154" key="GridCell.Tab.0.bottom" timestamp="1582707343171">
+    <state x="452" y="260" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1582708094221">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1419" height="154" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1582707343171" />
-    <state width="1419" height="154" key="GridCell.Tab.0.center" timestamp="1582707343170">
+    <state x="452" y="260" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1440.900@0.0.1440.900" timestamp="1582708094221" />
+    <state x="458" y="204" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1582711298176">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1419" height="154" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1582707343170" />
-    <state width="1419" height="154" key="GridCell.Tab.0.left" timestamp="1582707343168">
+    <state x="458" y="204" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1440.900@0.0.1440.900" timestamp="1582711298176" />
+    <state x="303" y="52" key="CommitChangelistDialog2" timestamp="1582707982324">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1419" height="154" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1582707343168" />
-    <state width="1419" height="154" key="GridCell.Tab.0.right" timestamp="1582707343171">
+    <state x="303" y="52" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1582707982324" />
+    <state width="1419" height="220" key="GridCell.Tab.0.bottom" timestamp="1582713864379">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1419" height="154" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1582707343171" />
+    <state width="1419" height="220" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1582713864379" />
+    <state width="1419" height="220" key="GridCell.Tab.0.center" timestamp="1582713864377">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1419" height="220" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1582713864377" />
+    <state width="1419" height="220" key="GridCell.Tab.0.left" timestamp="1582713864377">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1419" height="220" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1582713864377" />
+    <state width="1419" height="220" key="GridCell.Tab.0.right" timestamp="1582713864378">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1419" height="220" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1582713864378" />
+    <state x="320" y="178" key="Vcs.Push.Dialog.v2" timestamp="1582707985290">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="320" y="178" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1582707985290" />
   </component>
 </project>
